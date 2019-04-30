@@ -9,7 +9,7 @@
   // Feature detect and register service worker
   if('serviceWorker' in navigator){
     window.addEventListener('load', function(){
-      navigator.serviceWorker.register('/sw-test.js')
+      navigator.serviceWorker.register('/my-first-web-app/sw-test.js')
       .then(function(reg){
         console.log('Registration successful! Scope is ' + reg.scope);
       }).catch(function(err){
