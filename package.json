@@ -1,0 +1,26 @@
+{
+  "name": "intro-to-pwa",
+  "version": "1.0.0",
+  "description": "These are the course materials for UD811.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp serve"
+  },
+  "repository": "git+https://github.com/lanejames35/ud811.git",
+  "author": "James Lane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanejames35/ud811/issues"
+  },
+  "homepage": "https://github.com/lanejames35/ud811#readme",
+  "private": false,
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.1",
+    "workbox-build": "^4.3.0"
+  },
+  "dependencies": {
+    "localforage": "^1.7.3"
+  }
+}
