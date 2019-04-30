@@ -2,27 +2,27 @@
 var cacheName = 'weatherPWA-shellv2';
 var dataCacheName = 'weatherPWA-datav2';
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/favicon.ico',
-  '/manifest.json',
-  '/styles/ud811.css',
-  '/scripts/app.js',
-  '/scripts/localforage.min.js',
-  '/images/clear.png',
-  '/images/cloudy_s_sunny.png',
-  '/images/cloudy-scattered-showers.png',
-  '/images/cloudy.png',
-  '/images/fog.png',
-  '/images/ic_add_white_24px.svg',
-  '/images/ic_refresh_white_24px.svg',
-  '/images/partly-cloudy.png',
-  '/images/rain.png',
-  '/images/scattered-showers.png',
-  '/images/sleet.png',
-  '/images/snow.png',
-  '/images/thunderstorm.png',
-  '/images/wind.png'
+  '/my-first-web-app',
+  '/my-first-web-app/index.html',
+  '/my-first-web-app/favicon.ico',
+  '/my-first-web-app/manifest.json',
+  '/my-first-web-app/styles/ud811.css',
+  '/my-first-web-app/scripts/app.js',
+  '/my-first-web-app/scripts/localforage.min.js',
+  '/my-first-web-app/images/clear.png',
+  '/my-first-web-app/images/cloudy_s_sunny.png',
+  '/my-first-web-app/images/cloudy-scattered-showers.png',
+  '/my-first-web-app/images/cloudy.png',
+  '/my-first-web-app/images/fog.png',
+  '/my-first-web-app/images/ic_add_white_24px.svg',
+  '/my-first-web-app/images/ic_refresh_white_24px.svg',
+  '/my-first-web-app/images/partly-cloudy.png',
+  '/my-first-web-app/images/rain.png',
+  '/my-first-web-app/images/scattered-showers.png',
+  '/my-first-web-app/images/sleet.png',
+  '/my-first-web-app/images/snow.png',
+  '/my-first-web-app/images/thunderstorm.png',
+  '/my-first-web-app/images/wind.png'
 ];
 var weatherAPIUrlBase = 'https://publicdata-weather.firebaseio.com/';
 
